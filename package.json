@@ -1,0 +1,28 @@
+{
+  "name": "hugo-widebs5-theme",
+  "version": "0.1.0",
+  "description": "Hugo WideBs5 Theme sample site",
+  "main": "index.js",
+  "scripts": {
+    "css-lint-stylelint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --rd",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juggernautjp/hugo-widebs5-theme.git"
+  },
+  "keywords": [
+    "Hugo",
+    "Theme"
+  ],
+  "author": "juggernautjp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juggernautjp/hugo-widebs5-theme/issues"
+  },
+  "homepage": "https://github.com/juggernautjp/hugo-widebs5-theme#readme",
+  "devDependencies": {
+    "stylelint": "^14.16.1",
+    "stylelint-config-twbs-bootstrap": "^7.0.0"
+  }
+}
