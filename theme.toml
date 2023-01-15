@@ -8,7 +8,7 @@ description = "Hugo WideBs5 Theme for Docs&Blog site, based on Bootstrap v5.3 th
 homepage = "https://github.com/juggernautjp/hugo-widebs5-theme/"
 tags = []
 features = []
-# min_version = "0.41.0"
+min_version = "0.109.0"
 
 [author]
   name = "juggernautjp"
