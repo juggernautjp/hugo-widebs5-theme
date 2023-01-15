@@ -25,7 +25,7 @@
 // Load Bootstrap variables and mixins
 @import "../../bootstrap/scss/functions";
 @import "../../bootstrap/scss/variables";
-@use "../../bootstrap/scss/vendor/rfs" as rfs;
+@import "../../bootstrap/scss/vendor/rfs";
 @import "../../bootstrap/scss/mixins";
 
 // fusv-disable
