@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "css-lint-stylelint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --rd",
+    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:dist/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/juggernautjp/hugo-widebs5-theme#readme",
   "devDependencies": {
+    "sass": "^1.57.1",
+    "sass-true": "^7.0.0",
     "stylelint": "^14.16.1",
     "stylelint-config-twbs-bootstrap": "^7.0.0"
   }
