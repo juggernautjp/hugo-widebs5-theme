@@ -26,10 +26,12 @@ _merge = "deep"
 # path = "github.com/twbs/bootstrap"
 # path = "github.com/juggernautjp/hugo-widebs5-theme"
 # disable = false
-[[module.imports.mounts]]
+# [[module.imports.mounts]]
+[[module.mounts]]
   source = "scss"
   target = "assets/vendor/bootstrap/scss"
-[[module.imports.mounts]]
+# [[module.imports.mounts]]
+[[module.mounts]]
   source = "dist/js"
   target = "assets/vendor/bootstrap/dist/js"
 [[module.imports]]
