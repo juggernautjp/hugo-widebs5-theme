@@ -4,7 +4,7 @@
 name = "Hugo WideBs5 Theme"
 license = "MIT"
 licenselink = "https://github.com/juggernautjp/hugo-widebs5-theme/blob/master/LICENSE"
-description = "Hugo WideBs5 Theme for Docs&Blog site, based on Bootstrap v5.3 theme"
+description = "Hugo WideBs5 Theme for Docs&Blog site, based on Bootstrap v5.3.0-alpha1 theme"
 homepage = "https://github.com/juggernautjp/hugo-widebs5-theme/"
 tags = []
 features = []
@@ -16,6 +16,6 @@ min_version = "0.109.0"
 
 # If porting an existing theme
 [original]
-  name = "Bootstrap v5.3"
+  name = "Bootstrap v5.3.0-alpha1"
   homepage = "https://getbootstrap.com/"
   repo = "https://github.com/twbs/bootstrap"
