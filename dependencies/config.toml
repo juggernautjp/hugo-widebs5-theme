@@ -1,9 +1,9 @@
 [module]
 _merge = "deep"
 # work around https://github.com/golang/go/issues/37397
-[[module.mounts]]
-  source = "assets/bootstrap/scss/_vendor"
-  target = "assets/vendor/bootstrap/scss/vendor"
+# [[module.mounts]]
+#   source = "assets/bootstrap/scss/_vendor"
+#   target = "assets/vendor/bootstrap/scss/vendor"
 # mount asserts directory
 [[module.mounts]]
   source = "assets"
