@@ -11,13 +11,13 @@ _merge = "deep"
 [[module.mounts]]
   source = "assets"
   target = "assets"
-[[module.mounts]]
-  source = "layouts"
-  target = "layouts"
+# [[module.mounts]]
+#   source = "layouts"
+#   target = "layouts"
 # mount static directory
-[[module.mounts]]
-  source = "static"
-  target = "static"
+# [[module.mounts]]
+#   source = "static"
+#   target = "static"
 # Dependencies are brought in as modules
 # and mount points are declared
 [[module.imports]]

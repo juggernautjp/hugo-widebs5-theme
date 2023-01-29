@@ -1,5 +1,5 @@
 
-> **Note:** This README
+> **Note:** This README is cited from [Hugo-Module-Bootstrap](https://gitlab.com/writeonlyhugo/hugo-module-bootstrap)
 
 This is a [Hugo module](https://gohugo.io/hugo-modules/) that packages the
 [Bootstrap v5](https://getbootstrap.com/) SCSS and JavaScript source ready to be used in Hugo.
