@@ -1,5 +1,5 @@
 [module]
-_merge = "deep"
+# _merge = "deep"
 [module.hugoVersion]
   extended = true
 # workaround for https://github.com/golang/go/issues/37397
