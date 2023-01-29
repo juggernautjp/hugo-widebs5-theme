@@ -21,7 +21,7 @@ baseURL = "https://example.com/"
     source = "js-packages/@fortawesome/fontawesome-free/"
     target = "assets/Font-Awesome"
   [[module.imports]]
-    path = "gitlab.com/writeonlyhugo/hugo-module-bootstrap"
+    path = "github.com/juggernautjp/hugo-widebs5-theme/dependencies"
     disable = false
 #  [[module.mounts]]
 #    source = "static"
