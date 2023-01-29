@@ -1,4 +1,6 @@
 github.com/FortAwesome/Font-Awesome v0.0.0-20221115183454-96cafbd73ec4 h1:xfr9SidRCMEh4A8fdkLhFPcHAVbrdv3Ua0Jp/nSmhhQ=
 github.com/FortAwesome/Font-Awesome v0.0.0-20221115183454-96cafbd73ec4/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
-github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.0 h1:gHlaCGniX7cbKAlgvk0Xan124NxQPVcpjm+/dUmdrks=
-github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.0/go.mod h1:39ZRs6aPmw4uRrA5X1Hj+i8+SEL3kEzVczXd2qtMltg=
+github.com/FortAwesome/Font-Awesome v4.7.0+incompatible h1:3trjm7NtX5NXlju1AxSWSzedDMq2hsfH78Qtqrc8EgY=
+github.com/FortAwesome/Font-Awesome v4.7.0+incompatible/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
+gitlab.com/writeonlyhugo/hugo-module-bootstrap v0.0.0-20230104032709-256ccad7a64e h1:eRekZdxFCXEZpo1atoSdDr7uny/Piglwad9tObcIqMA=
+gitlab.com/writeonlyhugo/hugo-module-bootstrap v0.0.0-20230104032709-256ccad7a64e/go.mod h1:WXqOWOoA8n+H/gnfCtA0Q91l778KxxJCyBhnFEZ3AYE=
