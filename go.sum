@@ -1,6 +1,12 @@
 github.com/FortAwesome/Font-Awesome v0.0.0-20221115183454-96cafbd73ec4 h1:xfr9SidRCMEh4A8fdkLhFPcHAVbrdv3Ua0Jp/nSmhhQ=
 github.com/FortAwesome/Font-Awesome v0.0.0-20221115183454-96cafbd73ec4/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
+github.com/FortAwesome/Font-Awesome v0.0.0-20221214131343-adb2273bdbff h1:wd6bP1lsIYGwAFY0To2esUZCkhg+o4v3swancw4fVpI=
+github.com/FortAwesome/Font-Awesome v0.0.0-20221214131343-adb2273bdbff/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
+github.com/FortAwesome/Font-Awesome v1.0.0 h1:f6Kfj7kf+taIaN0hRc7QgyLw7KxH/9nFI9t4vMpwgWw=
+github.com/FortAwesome/Font-Awesome v1.0.0/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
 github.com/FortAwesome/Font-Awesome v4.7.0+incompatible h1:3trjm7NtX5NXlju1AxSWSzedDMq2hsfH78Qtqrc8EgY=
 github.com/FortAwesome/Font-Awesome v4.7.0+incompatible/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
 github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.0 h1:gHlaCGniX7cbKAlgvk0Xan124NxQPVcpjm+/dUmdrks=
 github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.0/go.mod h1:39ZRs6aPmw4uRrA5X1Hj+i8+SEL3kEzVczXd2qtMltg=
+github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.1-0.20230130034520-cca225f91315 h1:J7TajEU2LWRo79Fv5UYICdrIdFyyfyO2FWk0gcZCPjw=
+github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.1-0.20230130034520-cca225f91315/go.mod h1:Skp7hkTb/88/ORPldHQqp9kMcI+4yUajmL7qa4S95/U=
