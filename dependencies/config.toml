@@ -6,18 +6,21 @@
 # Workaround for https://github.com/gohugoio/hugo/issues/6945
 [[module.mounts]]
   source = "assets/bootstrap/scss/_vendor"
-  target = "assets/bootstrap/scss/vendor"
+  target = "assets/vendor/bootstrap/scss/vendor"
 # mount asserts directory
 [[module.mounts]]
   source = "assets"
   target = "assets"
-# [[module.mounts]]
-#   source = "layouts"
-#   target = "layouts"
+[[module.mounts]]
+  source = "i18n"
+  target = "i18n"
+[[module.mounts]]
+  source = "layouts"
+  target = "layouts"
 # mount static directory
-# [[module.mounts]]
-#   source = "static"
-#   target = "static"
+[[module.mounts]]
+  source = "static"
+  target = "static"
 # Dependencies are brought in as modules
 # and mount points are declared
 [[module.imports]]
@@ -25,7 +28,7 @@
   disable = false
 [[module.imports.mounts]]
   source = "scss"
-  target = "assets/bootstrap/scss"
+  target = "assets/vendor/bootstrap/scss"
 [[module.imports.mounts]]
   source = "js"
-  target = "assets/bootstrap/js"
+  target = "assets/vendor/bootstrap/js"
