@@ -21,14 +21,14 @@ baseURL = "https://example.com/"
     source = "node_modules/@fortawesome/fontawesome-free"
     target = "assets/vendor/Font-Awesome"
   [[module.mounts]]
-    source = "static"
-    target = "static"
-  [[module.mounts]]
     source = "i18n"
     target = "i18n"
-   [[module.mounts]]
+  [[module.mounts]]
     source = "layouts"
     target = "layouts"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
    [[module.mounts]]
     source = "node_modules/@fortawesome/fontawesome-free/webfonts"
     target = "static/webfonts"

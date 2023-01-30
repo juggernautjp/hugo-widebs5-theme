@@ -8,5 +8,7 @@ github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.1-0.20230130060449-
 github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.1-0.20230130060449-d3e60dece68c/go.mod h1:Skp7hkTb/88/ORPldHQqp9kMcI+4yUajmL7qa4S95/U=
 github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.1-0.20230130060710-8ea979f30383 h1:K7UGccY7iJO1cfbRZevUopSi0Pn7fUwHH9QmpKgzhC4=
 github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.1-0.20230130060710-8ea979f30383/go.mod h1:Skp7hkTb/88/ORPldHQqp9kMcI+4yUajmL7qa4S95/U=
+github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.1-0.20230130065826-7468a22f7177 h1:XKiN6UpoQpNlaVbvl5UuYSD4T5OTDxl6KIDNwFSSmA8=
+github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.1-0.20230130065826-7468a22f7177/go.mod h1:lJ+XwhJnJhDXDAky00SOe+bEy0nn/QEXxlyvXewZLcA=
 github.com/twbs/bootstrap v5.3.0-alpha1.0.20230128013619-c735b2e19654+incompatible h1:FErz15rrpOunvcFKaRJazvInCCo7YzSGISPu70pIE74=
 github.com/twbs/bootstrap v5.3.0-alpha1.0.20230128013619-c735b2e19654+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
