@@ -1,4 +1,2 @@
 github.com/juggernautjp/hugo-widebs5-dependencies v0.0.0-20230131055256-1224ea0f3e44 h1:xa7VKCw+wxbglGnns9oScFAAhmYZwgQIi0+rHX1PTkk=
 github.com/juggernautjp/hugo-widebs5-dependencies v0.0.0-20230131055256-1224ea0f3e44/go.mod h1:ImnZVuZNTh2ENKele632rZlUGqR+MarKNQoxK8hgQ6M=
-github.com/twbs/bootstrap v5.3.0-alpha1.0.20230128013619-c735b2e19654+incompatible h1:FErz15rrpOunvcFKaRJazvInCCo7YzSGISPu70pIE74=
-github.com/twbs/bootstrap v5.3.0-alpha1.0.20230128013619-c735b2e19654+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
