@@ -24,7 +24,6 @@
   "homepage": "https://github.com/juggernautjp/hugo-widebs5-theme#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.13",
-    "hugo-extended": "^0.110.0",
     "sass": "^1.57.1",
     "sass-true": "^7.0.0",
     "stylelint": "^14.16.1",
