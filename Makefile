@@ -5,7 +5,7 @@ NPM_BIN=npm
 .PHONY: update verify vendor
 
 update:
-	$(HUGO_BIN) mod get github.com/juggernautjp/hugo-widebs5-dependencies@main
+	$(HUGO_BIN) mod get -u github.com/juggernautjp/hugo-widebs5-dependencies@main
 # $(NPM_BIN) update
 
 verify:
