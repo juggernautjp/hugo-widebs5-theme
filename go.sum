@@ -4,3 +4,5 @@ github.com/juggernautjp/hugo-widebs5-dependencies v0.0.0-20230207194327-05570b3e
 github.com/juggernautjp/hugo-widebs5-dependencies v0.0.0-20230207194327-05570b3ef474/go.mod h1:Mt8rvICAv2I+/3kOEB7cVY080cv40Qq/k2eKBg9vewA=
 github.com/juggernautjp/hugo-widebs5-dependencies v0.0.0-20230220023109-e6ab12684d50 h1:v9udS/3x+XWSkCZZsJ07RJ+g8hxq9o8UKaZomvzjuhQ=
 github.com/juggernautjp/hugo-widebs5-dependencies v0.0.0-20230220023109-e6ab12684d50/go.mod h1:R3VClWAHFAGyA1vacSk1OM4zH0Rk6RcNxT4kzTmni9Q=
+github.com/juggernautjp/hugo-widebs5-dependencies v0.0.0-20230228175153-0851b94d9cbb h1:rDKlWlqxIVzPAM+G2zgJz91vcQYQHZKVyp42GDpPaJQ=
+github.com/juggernautjp/hugo-widebs5-dependencies v0.0.0-20230228175153-0851b94d9cbb/go.mod h1:po8K5kLeoKpeXy5Iw+ZBeDWzCJfqjTW60feZMjYGP+c=
