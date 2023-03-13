@@ -1,0 +1,8 @@
+module:
+  module.hugoVersion:
+    extended: true
+    min: "0.109.0"
+    max: ""
+
+  imports:
+    - path: "github.com/juggernautjp/hugo-widebs5-dependencies"

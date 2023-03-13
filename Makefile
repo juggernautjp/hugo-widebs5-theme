@@ -6,6 +6,8 @@ NPM_BIN=npm
 
 update:
 	$(HUGO_BIN) mod get -u github.com/juggernautjp/hugo-widebs5-dependencies@main
+#	$(HUGO_BIN) mod get github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2@main
+#	$(HUGO_BIN) mod get github.com/twbs/bootstrap@main
 # $(NPM_BIN) update
 
 verify:

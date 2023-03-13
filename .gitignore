@@ -17,6 +17,7 @@ _vendor/
 *.lock
 /.idea
 /.vscode
+/.cache/
 /public
 /dist
 node_modules

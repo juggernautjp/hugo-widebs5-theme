@@ -1,0 +1,7 @@
+**/*.min.js
+**/dist/
+**/vendor/
+/assets/js/coverage/
+/assets/js/tests/integration/
+/static/sw.js
+/layouts/
