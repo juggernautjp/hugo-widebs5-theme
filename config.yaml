@@ -8,10 +8,10 @@ module:
       target: "assets/docs/scss"
     - source: "assets/js"
       target: "assets/docs/js"
-   imports:
+  imports:
     - path: "github.com/juggernautjp/hugo-widebs5-dependencies"
-    mounts:
+      mounts:
       # Workaround for https://github.com/gohugoio/hugo/issues/6945
-      - source: "assets/bootstrap/scss/_vendor"
-        target: "assets/bootstrap/scss/vendor"
+        - source: "assets/bootstrap/scss/_vendor"
+          target: "assets/bootstrap/scss/vendor"
  
