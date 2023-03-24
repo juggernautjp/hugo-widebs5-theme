@@ -3,16 +3,12 @@ module:
     extended: true
     min: "0.109.0"
     max: ""
-  mounts:
-    - source: "assets/scss"
-      target: "assets/docs/scss"
-    - source: "assets/js"
-      target: "assets/docs/js"
-    - source: "assets"
-      target: "assets"
+#  mounts:
+#    - source: "assets/scss"
+#      target: "assets/docs/scss"
+#    - source: "assets/js"
+#      target: "assets/docs/js"
+#    - source: "assets"
+#      target: "assets"
   imports:
     - path: "github.com/juggernautjp/hugo-widebs5-dependencies"
-#      mounts:
-      # Workaround for https://github.com/gohugoio/hugo/issues/6945
-#        - source: "assets/bootstrap/scss/_vendor"
-#          target: "assets/bootstrap/scss/vendor"
