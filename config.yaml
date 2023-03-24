@@ -8,6 +8,8 @@ module:
       target: "assets/docs/scss"
     - source: "assets/js"
       target: "assets/docs/js"
+    - source: "assets"
+      target: "assets"
   imports:
     - path: "github.com/juggernautjp/hugo-widebs5-dependencies"
 #      mounts:
