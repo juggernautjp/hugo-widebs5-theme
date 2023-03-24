@@ -3,7 +3,9 @@ module:
     extended: true
     min: "0.109.0"
     max: ""
-#  mounts:
+  mounts:
+    - source: ".browserslistrc"
+      target: ".browserslistrc"
 #    - source: "assets/scss"
 #      target: "assets/docs/scss"
 #    - source: "assets/js"
