@@ -11,7 +11,7 @@
 
 {{- $vendor := resources.Match "js/vendor/*.js" -}}
 {{- $js := resources.Match "js/*.js" -}}
-{{- $targetDocsCssPath := path.Join "/docs" .Site.Params.docs_version "assets/css/docs.css" -}}
+{{- $targetDocsJSPath := path.Join "/docs" .Site.Params.docs_version "assets/js/docs.js" -}}
 {{- $docsJs := append $js $vendor | resources.Concat $targetDocsJSPath -}}
 
 {{- if eq hugo.Environment "production" -}}
