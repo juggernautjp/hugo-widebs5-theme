@@ -5,7 +5,9 @@ module:
     max: ""
   mounts:
     - source: ".browserslistrc"
-      target: ".browserslistrc"
+      target: "content/.browserslistrc"
+    - source: "content"
+      target: "content"
 #    - source: "assets/scss"
 #      target: "assets/docs/scss"
 #    - source: "assets/js"
