@@ -22,7 +22,7 @@
   {{- end -}}
 {{- end -}}
 {{- if not (fileExists $file) -}}
-  {{ warnf "File: dose not exists: %q" $file }}
+  {{ warnf "SCSS File: dose not exists: %q" $file }}
 {{- end -}}
 
 {{- /* If any parameters are missing, print an error and exit */ -}}
