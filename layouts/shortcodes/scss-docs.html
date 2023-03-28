@@ -12,6 +12,17 @@
 {{- $file := .Get "file" -}}
 {{- $strip_default := .Get "strip-default" | default "true" -}}
 
+/*
+  if options.bsa_path is set, set $path = $options.bsa_path + $file
+*/
+{{- $bootstrapf := and (findRE `^scss/` $file) (not (findRE `^assets/` $file)) -}}
+{{- if $bootstrapf -}}
+  {{- with .Site.Params.options.bsa_path  -}}
+    {{- $file = path.Join . $file -}}
+  {{- end -}}
+{{- end -}}
+{{ warnf "SCSS path: %q" $file }}
+
 {{- /* If any parameters are missing, print an error and exit */ -}}
 {{- if or (not $name) (not $file) -}}
   {{- errorf "%s: %q: Missing required parameters! Got: name=%q file=%q!" .Position .Name $name $file -}}
@@ -39,5 +50,38 @@
     {{- $match = replace $match " !default" "" -}}
   {{- end -}}
 
-  {{- highlight $match "scss" "" -}}
+  <div class="bd-example-snippet bd-code-snippet bd-scss-docs">
+    <div class="d-flex align-items-center highlight-toolbar ps-3 pe-2 py-1 border-bottom">
+      <a class="font-monospace link-secondary link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover small" href="{{ .Site.Params.repo }}/blob/v{{ .Site.Params.current_version }}/{{ $file | replaceRE `\\` "/" }}">
+        {{- $file -}}
+      </a>
+      <div class="d-flex ms-auto">
+        <button type="button" class="btn-clipboard mt-0 me-0" title="Copy to clipboard">
+          <svg class="bi" aria-hidden="true"><use xlink:href="#clipboard"/></svg>
+        </button>
+      </div>
+    </div>
+    {{- $unindent := 0 -}}
+    {{- $found := false -}}
+    {{- $first_line:= index (split $match "\n") 0 -}}
+    {{- range $char := split $first_line "" -}}
+      {{- if and (eq $char " ") (not $found) -}}
+        {{- $unindent = add $unindent 1 -}}
+      {{- else -}}
+        {{- $found = true -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $output := "" -}}
+    {{- if (gt $unindent 0) -}}
+      {{- $prefix := (strings.Repeat $unindent " ") -}}
+      {{- range $line := split $match "\n" -}}
+        {{- $line = strings.TrimPrefix $prefix $line -}}
+        {{ $output = printf "%s%s\n" $output $line }}
+      {{- end -}}
+      {{- $output = chomp $output -}}
+    {{- else -}}
+      {{- $output = $match -}}
+    {{- end -}}
+    {{- highlight $output "scss" "" -}}
+  </div>
 {{- end -}}

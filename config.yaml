@@ -12,3 +12,7 @@ module:
 #      target: "assets"
   imports:
     - path: "github.com/juggernautjp/hugo-widebs5-dependencies"
+
+params:
+  options:
+    bsa_path: "assets/bootstrap"

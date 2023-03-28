@@ -1,31 +1,47 @@
+# Hugo files
+/resources/
+/.hugo_build.lock
+/_vendor/
+/public/
+/.cache/
+/node_modules/
+/themes/
+/js/coverage/
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
+*.bak
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.zip
+*~
 
 # Test binary, built with `go test -c`
 *.test
+._*
+.cache
+.idea
+.project
+.settings
+.tmproj
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
 # Dependency directories (remove the comment below to include it)
-_vendor/
-
 *.lock
-/.idea
-/.vscode
-/.cache/
-/public
-/dist
-node_modules
+/.vscode/
 nohup.out
 .DS_Store
-.hugo_build.lock
-resources/_gen/images/
 
-# for hugo theme
-themes/
 
