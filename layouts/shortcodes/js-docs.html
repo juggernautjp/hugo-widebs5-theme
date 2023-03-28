@@ -8,6 +8,10 @@
 {{- $name := .Get "name" -}}
 {{- $file := .Get "file" -}}
 
+{{- if not (fileExists $file) -}}
+  {{ warnf "JS File: dose not exists: %q" $file }}
+{{- end -}}
+
 {{- /* If any parameters are missing, print an error and exit */ -}}
 {{- if or (not $name) (not $file) -}}
   {{- errorf "%s: %q: Missing required parameters! Got: name=%q file=%q!" .Position .Name $name $file -}}
