@@ -3,13 +3,15 @@ module:
     extended: true
     min: "0.109.0"
     max: ""
-#  mounts:
-#    - source: "assets/scss"
-#      target: "assets/docs/scss"
-#    - source: "assets/js"
-#      target: "assets/docs/js"
-#    - source: "assets"
-#      target: "assets"
+  mounts:
+    - source: "archetypes"
+      target: "archetypes"
+    - source: "assets"
+      target: "assets"
+    - source: "content"
+      target: "content"
+    - source: "layouts"
+      target: "layouts"
   imports:
     - path: "github.com/juggernautjp/hugo-widebs5-dependencies"
 
