@@ -20,4 +20,4 @@ vendor:
 	$(HUGO_BIN) mod vendor
 
 clean:
-	rm -rf ./public
+	rm -rf ./public ./_vendor
