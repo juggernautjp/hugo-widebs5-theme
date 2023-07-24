@@ -12,10 +12,11 @@
 {{- $file := .Get "file" -}}
 {{- $strip_default := .Get "strip-default" | default "true" -}}
 
+{{/* Bootstrap 5.3 対応でコメントアウトした
 {{- with .Site.Params.options.bsa_path  -}}
   {{- $file = path.Join . $file -}}
 {{- end -}}
-
+*/}}
 {{- /* If any parameters are missing, print an error and exit */ -}}
 {{- if or (not $name) (not $file) -}}
   {{- errorf "%s: %q: Missing required parameters! Got: name=%q file=%q!" .Position .Name $name $file -}}
